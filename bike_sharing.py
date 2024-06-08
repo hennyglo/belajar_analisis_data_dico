@@ -8,10 +8,12 @@ Original file is located at
 
 # Proyek Analisis Data: Bike Sharing
 
-- Nama: Henny Gloria Datubara
-- Email: hennygloriadatubarag@mhs.unimed.ac.id
-- Id Dicoding: <a href='https://www.dicoding.com/users/henny_4203/academies' target="_blank">henny_4203</a>
-- Github: <a href='https://github.com/hennyglo/analisis_data_python' target="_blank">Bike Sharing</a>
+# Informasi Pengembang
+
+- **Nama:** Henny Gloria Datubara
+- **Email:** hennygloriadatubarag@mhs.unimed.ac.id
+- **Id Dicoding:** [henny_4203](https://www.dicoding.com/users/henny_4203/academies)
+- **Github:** [Bike Sharing](https://github.com/hennyglo/belajar_analisis_data_dico.git)
 
 # Menentukan Pertanyaan Bisnis
 
@@ -38,9 +40,11 @@ Original file is located at
     - What is the relationship between temperature (temp) and the number of registered users (registered)?
     - What effect does the weather (weathersit) have on the number of bicycle rentals (cnt) during autumn (season 3)?
 - **Time-bound**: What was the hourly distribution of rental bikes (cnt) on Christmas Day (holiday = 1) in 2012 (yr = 1)? -->
-
-::# Menyiapkan semua library yang dibutuhkan
 """
+
+!pip install streamlit
+
+"""::# Menyiapkan semua library yang dibutuhkan"""
 
 # Instal Plotly
 !pip install plotly
