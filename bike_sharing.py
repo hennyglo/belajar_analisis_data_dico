@@ -40,22 +40,15 @@ Original file is located at
     - What is the relationship between temperature (temp) and the number of registered users (registered)?
     - What effect does the weather (weathersit) have on the number of bicycle rentals (cnt) during autumn (season 3)?
 - **Time-bound**: What was the hourly distribution of rental bikes (cnt) on Christmas Day (holiday = 1) in 2012 (yr = 1)? -->
+
+::# Menyiapkan semua library yang dibutuhkan
 """
 
-!pip install streamlit
+import os
+import subprocess
 
-"""::# Menyiapkan semua library yang dibutuhkan"""
-
-# Instal Plotly
-!pip install plotly
-
-# Impor Plotly
-import plotly.express as px
-
-# Contoh penggunaan Plotly Express
-df = px.data.iris()
-fig = px.scatter(df, x='sepal_width', y='sepal_length', color='species')
-fig.show()
+os.system('pip install streamlit')  # Memakai os
+subprocess.run(['pip', 'install', 'streamlit'])  # Memakai subprocess
 
 """# Data Wrangling
 
