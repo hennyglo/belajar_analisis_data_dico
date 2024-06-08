@@ -15,10 +15,6 @@ current_date = datetime.now().date()
 # Mendefinisikan rentang waktu, misalnya dari 1 Januari 2011 hingga 31 Desember 2012
 start_date = datetime(2011, 1, 1).date()
 end_date = datetime(2012, 12, 31).date()
-
-with st.sidebar:
-    # Menambahkan logo perusahaan
-    st.image("https://github.com/gloryindahs/bike-sharing/raw/main/bike.png")
     
     # Mengambil start_date & end_date dari date_input
     selected_dates = st.date_input(
